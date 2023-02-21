@@ -15,9 +15,15 @@ describe what the program does.
 #include "functions.h"
 
 int main(){
-    std::string result;
-    result = box(5,3);
-    std::cout << result;
-    std::cout << "\n------------------\n"; // seperator 
+    std::string box_result1;
+    box_result1 = box(5,3);
+    std::cout << box_result1;
+    std::cout << "\n------------------\n";
+    
+    std::string box_result2;
+    box_result2 = box(4,4);
+    std::cout << box_result2;
+    std::cout << "\n------------------\n";
+    
     
 }
