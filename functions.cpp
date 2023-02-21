@@ -20,9 +20,12 @@ int box(int height, int width){
 }
 
 int checkerboard(int height, int width){
+    std::cout << "Shape:" << std::endl;
     for (int h = 0; h < height; h++){
         for (int w = 0; w < width; w++){
-            if (h % 2 != 0){
+            if (h % 2 != 0 && w == 0 || w == width - 1){
+                std::cout << " ";
+            } else {
                 std::cout << "* ";
             }
         }
