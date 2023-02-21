@@ -19,6 +19,7 @@ int box(int height, int width){
 
 }
 
+//Task B: Checkerboard
 int checkerboard(int height, int width){
     std::cout << "Shape:" << std::endl;
     for (int h = 0; h < height; h++){
