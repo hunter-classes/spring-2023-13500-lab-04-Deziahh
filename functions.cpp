@@ -18,3 +18,15 @@ int box(int height, int width){
     return 0;
 
 }
+
+int checkerboard(int height, int width){
+    for (int h = 0; h < height; h++){
+        for (int w = 0; w < width; w++){
+            if (h % 2 != 0){
+                std::cout << "* ";
+            }
+        }
+        std::cout << std::endl;
+    }
+    return 0;
+}
