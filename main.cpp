@@ -39,5 +39,18 @@ int main(){
     std::cout << check_result2;
     std::cout << "\n------------------\n";
     
+    //CROSS TESTS
+    std::cout << "CROSS TESTS:" << std::endl;
+    std::string cross_result1;
+    check_result1 = cross(8);
+    std::cout << cross_result1;
+    std::cout << "\n------------------\n";
+    
+    std::cout << "CROSS TESTS:" << std::endl;
+    std::string cross_result2;
+    check_result2 = cross(10);
+    std::cout << cross_result2;
+    std::cout << "\n------------------\n";
+    
     
 }
