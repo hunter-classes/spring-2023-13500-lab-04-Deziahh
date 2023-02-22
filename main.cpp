@@ -2,10 +2,7 @@
 Author: Deziah Gayle
 Course: CSCI-135
 Instructor: Professor Zamansky
-Assignment: Lab4a
-
-Here, briefly, at least in one or a few sentences
-describe what the program does.
+Assignment: Lab #4
 */
 
 #include <iostream>
@@ -73,6 +70,18 @@ int main(){
     std::string upper_result2;
     upper_result2 = upper(8);
     std::cout << upper_result2;
+    
+    std::cout << "\n------------------\n";
+    
+    //TRAPEZOID TESTS
+    std::cout << "TRAPEZOID TESTS:" << std::endl;
+    std::string trap_result1;
+    trap_result1 = trapezoid(5,12);
+    std::cout << trap_result1;
+    
+    std::string trap_result2;
+    trap_result2 = trapezoid(7,12);
+    std::cout << trap_result2;
     
     std::cout << "\n------------------\n";
     

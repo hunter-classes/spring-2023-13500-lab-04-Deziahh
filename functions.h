@@ -14,3 +14,6 @@ int lower(int);
 
 //UPPER.CPP
 int upper(int);
+
+//TRAPEZOID.CPP
+int trapezoid(int, int);

@@ -86,3 +86,31 @@ int upper(int side){
         
     return 0;
 }
+
+int trapezoid(int height, int width){
+    std::cout << "\nShape" << std::endl;
+    
+    int spaces = 0;
+    int stars = width;
+    
+    for (int row = 0; row < height; ++row) {
+        for (int col = height + row; col > 0; --col) {
+            
+            if (height % 6 == 1) {
+                std::cout << "Impossible shape!" << std::endl;
+                
+                return 0;
+            }
+            std::cout << "  ";
+        }
+        
+        for (int col = 0; col < (width - 2 * row); ++col) {
+            std::cout << "* ";
+            
+            spaces += 1;
+            stars -= 2;
+        }
+        std::cout << std::endl;
+    }
+    return 0;
+}
