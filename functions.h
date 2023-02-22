@@ -17,3 +17,6 @@ int upper(int);
 
 //TRAPEZOID.CPP
 int trapezoid(int, int);
+
+//CHECKERBOARD3X3.CPP
+int check_three(int, int);

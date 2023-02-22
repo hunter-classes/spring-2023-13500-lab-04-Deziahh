@@ -114,3 +114,21 @@ int trapezoid(int height, int width){
     }
     return 0;
 }
+
+//Task G: Checkerboard (3X3)
+int check_three(int height, int width){
+    std::cout << "\nShape" << std::endl;
+    
+    for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                if ((i / 3) % 2 == (j / 3) % 2) {
+                    std::cout << "* ";
+                } else {
+                    std::cout << " ";
+                }
+            }
+            std::cout << std::endl;
+        }
+
+        return 0;
+    }

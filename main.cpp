@@ -85,6 +85,17 @@ int main(){
     
     std::cout << "\n------------------\n";
     
+    //CHECKERBOARD (3X3) TESTS
+    std::cout << "CHECKERBOARD (3x3) TESTS:" << std::endl;
+    std::string c3_result1;
+    c3_result1 = check_three(11,16);
+    std::cout << c3_result1;
+
+    std::string c3_result2;
+    c3_result2 = check_three(27,27);
+    std::cout << c3_result2;
+    
+    std::cout << "\n------------------\n";
 }
 
 
