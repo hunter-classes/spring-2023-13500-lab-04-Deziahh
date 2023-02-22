@@ -8,3 +8,6 @@ int checkerboard(int, int);
 
 //CROSS.CPP
 int cross(int);
+
+//LOWER.CPP
+int lower(int);

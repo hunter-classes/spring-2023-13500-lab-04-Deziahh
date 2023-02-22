@@ -54,3 +54,17 @@ int cross(int size){
     }
     return 0;
 }
+
+//Task D: Lower Triangle
+int lower(int side){
+    std::cout << "\nShape:" << std::endl;
+    
+    for (int i = 0; i <= side; i++) {
+        for (int j = 1; j <= i; j++) {
+            std::cout << "* ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
