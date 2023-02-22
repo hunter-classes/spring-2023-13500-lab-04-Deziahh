@@ -63,4 +63,19 @@ int main(){
     std::cout << lower_result2;
     
     std::cout << "\n------------------\n";
+    
+    //UPPER TESTS
+    std::cout << "UPPER TESTS:" << std::endl;
+    std::string upper_result1;
+    upper_result1 = upper(5);
+    std::cout << upper_result1;
+    
+    std::string upper_result2;
+    upper_result2 = upper(8);
+    std::cout << upper_result2;
+    
+    std::cout << "\n------------------\n";
+    
 }
+
+

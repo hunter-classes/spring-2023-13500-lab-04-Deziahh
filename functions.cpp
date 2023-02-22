@@ -68,3 +68,21 @@ int lower(int side){
 
     return 0;
 }
+
+//Task E: Upper Triangle
+int upper(int side){
+    std::cout << "\nShape" << std::endl;
+    
+    for (int i = 0; i < side; i++) {
+        for (int j = 0; j < side; j++) {
+            if (j >= i) {
+                std::cout << "* ";
+            } else {
+            std::cout << "  ";
+            }
+        }
+        std::cout << std::endl;
+    }
+        
+    return 0;
+}

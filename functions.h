@@ -11,3 +11,6 @@ int cross(int);
 
 //LOWER.CPP
 int lower(int);
+
+//UPPER.CPP
+int upper(int);
